@@ -1,6 +1,6 @@
 # Contact-Log
 
-Contact List App for CIS 2106 NCII
+Contact List App for CIS 2106 NCII: Object Oriented Programming in Java
 
 # Members
 
