@@ -21,15 +21,16 @@ To contribute, `Fork` this repository in your Github which can be seen on the to
 
 Go to your Forked Repository, click on `Code`, and copy the URL as shown.
 
-![image](https://github.com/NotRelix/e-pitaka/assets/111989096/09e93194-be12-423d-845b-64540ac63a0e)
+![image](https://github.com/Samuel-Bonghanoy/Contact-Log/assets/113536057/cb32d91a-8f41-4f6b-a125-d784a171a918)
+
 
 In your terminal, navigate to the Directory you want it to be saved, and with the saved URL do the following:
 
 ```bash
 git clone <the_url_you_copied>
 
-git clone https://github.com/NotRelix/e-pitaka.git    # Example
-cd e-pitaka                                           # Make that file the current directory
+git clone https://github.com/Samuel-Bonghanoy/Contact-Log.git   # Example
+cd Contact-Log                                                  # Make that file the current directory
 ```
 
 You can then make changes within that file whenever you want, but make sure to `git pull` everytime you start coding to fetch the most recent changes.
