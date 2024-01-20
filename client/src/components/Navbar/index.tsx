@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <div className="navbar bg-sky-950 px-5">
+    <div className="navbar bg-cyan-950 px-5">
       <div className="flex-1">
-        <a className="btn btn-ghost text-3xl">Contact Log</a>
+        <a className="btn btn-ghost text-3xl text-white">Contact Log</a>
       </div>
       <div className="flex-none gap-5">
         <div className="form-control">
