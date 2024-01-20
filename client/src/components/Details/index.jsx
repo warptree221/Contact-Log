@@ -4,11 +4,11 @@ import Menu from "./components/Menu";
 
 function Details() {
   return (
-    <div className="h-fit bg-cyan-950 py-5 overflow-x-hidden w-full">
+    <div className="w-full py-5 overflow-x-hidden h-fit bg-cyan-950">
       <Navbar />
-      <div className="divider mx-10 divider-info before:bg-gray-300 after:bg-gray-300"></div>
+      <div className="mx-10 divider divider-info before:bg-gray-300 after:bg-gray-300"></div>
       <Menu />
-      <div className="w-screen h-full flex flex-col gap-3 items-center justify-center">
+      <div className="flex flex-col items-center justify-center w-full h-full gap-3">
         <DetailsList />
       </div>
     </div>
