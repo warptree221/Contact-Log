@@ -1,8 +1,13 @@
+import Navbar from "../Navbar";
+
 function AppLayout() {
   return (
-    <div className="w-screen bg-base-400">
-      <p>Hi</p>
-    </div>
+    <>
+      <Navbar />
+      <div className="w-screen bg-base-700">
+        <p>Hi</p>
+      </div>
+    </>
   );
 }
 
