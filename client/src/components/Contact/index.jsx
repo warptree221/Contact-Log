@@ -1,6 +1,11 @@
+import { Link } from "react-router-dom";
+
 export default function Contact() {
   return (
-    <div className="bg-cyan-900 flex justify-between h-16 w-[93%] px-6 hover:bg-cyan-800 hover:scale-[1.01] hover:shadow-slate-400 transition-all">
+    <Link
+      to="/contact/1"
+      className="bg-cyan-900 flex justify-between h-16 w-[93%] px-6 hover:bg-cyan-800 hover:scale-[1.01] hover:shadow-slate-400 transition-all"
+    >
       <div className="flex gap-5 items-center">
         <div className="avatar">
           <div className="w-10 rounded-full">
@@ -17,6 +22,6 @@ export default function Contact() {
           Details
         </button>
       </div>
-    </div>
+    </Link>
   );
 }

@@ -9,7 +9,7 @@ export default function Navbar() {
           <input
             type="text"
             placeholder="Search"
-            className="input input-bordered w-24 md:w-auto bg-white h-10"
+            className="input input-bordered w-24 md:w-auto bg-white h-10 text-black"
           />
         </div>
         <div className="dropdown dropdown-end">
