@@ -1,4 +1,5 @@
 import Navbar from "../Navbar";
+import DetailsList from "./components/Details";
 import Menu from "./components/Menu";
 
 function Details() {
@@ -7,7 +8,9 @@ function Details() {
       <Navbar />
       <div className="divider mx-10 divider-info before:bg-gray-300 after:bg-gray-300"></div>
       <Menu />
-      <div className="w-screen flex flex-col gap-3 items-center justify-center"></div>
+      <div className="w-screen h-full flex flex-col gap-3 items-center justify-center">
+        <DetailsList />
+      </div>
     </div>
   );
 }
